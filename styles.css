@@ -1,0 +1,160 @@
+* {
+	/* border: solid red 1px; */
+
+	margin: 0 auto;
+	font-family: Arial;
+}
+
+nav {
+	background-color: #1f2937;
+	color: #e5e7db;
+	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#cute-cat-logo {
+	width: 200px;
+	height: 100px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	gap: 50px;
+}
+
+#mainlogo {
+	height: 40px;
+}
+
+#cute-cat {
+	width: 500px;
+	height: 300px;
+
+	margin-top: 100px;
+}
+
+header {
+	margin: 0 auto;
+	background-color: #1f2937;
+	padding-bottom: 130px;
+}
+
+.content-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left-section {
+	flex: 1;
+	max-width: 560px;
+}
+
+#cutecat {
+	width: auto;
+	height: auto;
+}
+
+.buy {
+	margin-top: 20px;
+	margin-left: 25px;
+	width: 160px;
+	height: 30px;
+	border-radius: 10px;
+	border-color: #3882f6;
+	background-color: #3882f6;
+}
+
+h1 {
+	color: #f9faf8;
+	font-size: 48px;
+	font-weight: bolder;
+}
+
+.galery-title {
+	font-weight: bolder;
+	color: #1f2937;
+	text-align: center;
+	font-size: 36px;
+	margin-top: 50px;
+}
+
+.galery-div {
+	width: 600px;
+	height: 150px;
+	gap: 50px;
+}
+
+.galery-div .gallery-item {
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}
+
+.galery-div img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	gap: 50px;
+	border: solid #3882f6 4px;
+}
+
+.dtext {
+	color: #e5e7db;
+	font-size: 18px;
+}
+
+.galp {
+	color: #1f2937;
+	font-size: 18px;
+}
+
+.center {
+	text-align: center;
+}
+
+.quote-div {
+	background-color: #e5e7eb;
+	height: 400px;
+	text-align: center;
+	padding: 60px 0;
+}
+
+.quote {
+	font-size: 36px;
+	font-style: italic;
+	color: #1f2937;
+	margin: 50px;
+}
+
+.quoter {
+	margin-top: 50px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: end;
+	padding-right: 50px;
+}
+
+.call {
+	background-color: #3882f6;
+}
+
+.border {
+	border-color: white;
+}
+
+.call {
+	max-width: 800px;
+	height: 150px;
+	margin: 75px auto;
+}
+
+footer {
+	background-color: #1f2937;
+	padding: 30px 0;
+	color: #e5e7db;
+}
